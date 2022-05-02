@@ -1,0 +1,81 @@
+body {
+    background: #d6e1ff;
+    width: 100vw;
+    font-family: 'montserrat', sans-serif;
+}
+
+.conteudo-principal {
+    width: 84%;
+    padding: 15% 8% 8%;
+}
+
+.ilustracao {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.area-branca {
+    background-color: #FFFFFF;
+    border-radius: 0 0 20px 20px;
+    padding: 3em 2em;
+}
+
+.titulo-principal {
+    font-weight: 800;
+    color: #1e3054;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.texto {
+    font-size: 0.85rem;
+    color: #898f9c;
+    line-height: 22px;
+    text-align: center;
+}
+
+.container-annual-plan {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    background-color: #eff1f8;
+    padding: 5%;
+    margin: 1.2em 0;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.textos-annual-plan {
+    text-align: center;
+}
+
+.textos-annual-plan p {
+    font-size: 0.8rem;
+}
+
+.nota-musical {
+    width: 2.3rem;
+}
+
+.botao-change {
+    background: none;
+    border: none;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    color: #5c4fc1;
+    font-weight: 600;
+}
+
+.payment {
+    width: 100%;
+    background-color: #382ae1;
+    border: none;
+    border-radius: 8px;
+    height: 2.8em;
+    color: #ece9ff;
+    font-weight: 600;
+}
