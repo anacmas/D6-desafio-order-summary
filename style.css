@@ -2,12 +2,14 @@ body {
     background: #d6e1ff;
     width: 100vw;
     font-family: 'montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
 }
 
 .conteudo-principal {
     width: 84%;
-    margin: 15% 8% 8%;
-    max-width: 550px;
+    margin: 5rem 0 0 0;
+    max-width: 400px;
 }
 
 .ilustracao {
@@ -78,6 +80,17 @@ h2 {
     font-weight: 600;
 }
 
+.botao-change:hover {
+    color: #9b96e5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.botao-change:active{
+    color: #d1cef8;
+    transition: 0.3s;
+}
+
 .payment {
     width: 100%;
     background-color: #382ae1;
@@ -90,6 +103,17 @@ h2 {
     box-shadow: 0px 10px 18px #392ae144;
 }
 
+.payment:hover{
+    background-color: #766cf1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.payment:active{
+    background-color: #b5aff8;
+    transition: 0.3s;
+}
+
 .cancel-order {
     border: none;
     background: none;
@@ -98,6 +122,18 @@ h2 {
     justify-content: space-around;
     font-weight: 600;
 }
+
+.cancel-order:hover {
+    color: #4d5770; 
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cancel-order:active {
+    color: #5480f0; 
+    transition: 0.3s;
+}
+
 
 .attribution {
     margin-top: 2em;
@@ -121,5 +157,9 @@ h2 {
 }
 
 @media (min-width: 550px) {
-    
+
+    .nota-musical {
+        width: 2.6rem;
+    }
 }
+
